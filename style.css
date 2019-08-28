@@ -1,0 +1,246 @@
+a{
+  color:hsl(170, 45%, 43%);
+
+}
+
+body{
+  font-size:0.9rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+  font-size:1.5rem;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+li{
+  padding-top:5%;
+}
+
+/* Features Section */
+.logo{
+  margin-left:3%;
+}
+.nav-bar{
+  margin-top:20px;
+  margin-left:20px;
+}
+
+
+.f-div{
+  margin-top:80px;
+
+}
+
+.img1{
+  max-width:80%;
+  margin-left:80px;
+
+}
+
+.t-div{
+  margin-top:180px;
+
+}
+
+.text1{
+  background-color:hsl(0, 0%, 75%);
+  opacity:0.5;
+  text-align: center;
+}
+
+.btn{
+  background-color:hsl(224, 93%, 58%);
+  width:150px;
+  height:30px;
+  color:#fff;
+  font-size:0.7rem;
+}
+
+/*Team Section  */
+#Team{
+  margin-left: 30px;
+}
+
+
+
+.img2{
+  margin-top:180px;
+  max-width:80%;
+  margin-left:80px;
+
+}
+
+.in-div2{
+  border: 2px solid hsl(0, 0%, 75%);
+  opacity:0.5;
+  width:270px;
+  margin-top:5%;
+  margin-bottom: 10%;
+  padding:2%;
+  font-size:0.7rem;
+
+}
+
+.avatar{
+  border-radius: 50%;
+  height:30px;
+}
+
+/*Sign-In section  */
+
+.s-div {
+  background-color:hsl(238, 22%, 44%);
+  padding-top:50px;
+  padding-left:50px;
+  color:#fff;
+  padding-bottom: 5%;
+}
+
+.s-div2{
+  background-color:hsl(238, 22%, 44%);
+  padding-top:50px;
+  padding-left:50px;
+  color:#fff;
+  padding-bottom: 5%;
+
+}
+
+.text2{
+  width:70%;
+  margin-bottom:2%;
+
+
+}
+
+.footer{
+  background-color:  hsl(243, 87%, 12%);
+  padding-top:5%;
+  color:#fff;
+  padding-bottom:3%;
+}
+
+.row{
+  margin-left:0px;
+  margin-right: 0px;
+}
+
+.logo1{
+  width:50%;
+  padding-bottom: 6%;
+}
+
+.s-div3{
+  padding-left:5%;
+}
+
+.s-div4, .s-div5,.s-div6{
+  padding-top:2%;
+}
+
+
+.social{
+  padding-left:4%;
+}
+
+/*Media Query  */
+
+@media(max-width:480px){
+
+a{
+  margin-left: 32%;
+}
+
+body{
+  font-size:0.8rem;
+}
+
+h2{
+  font-size: 1.0rem;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+/* Feature Section */
+.flex-container{
+  flex-direction:column-reverse;
+}
+
+.img1{
+  width:100%;
+  margin-left:20px;
+}
+
+.text1{
+  width:100%;
+  margin-bottom: 5%;
+
+}
+
+.btn{
+  width:100%;
+
+}
+
+
+/* Team Section */
+
+#Team{
+  margin-left:0px;
+
+}
+
+.in-div2{
+  margin:auto;
+  margin-bottom: 3%;
+}
+
+.img2{
+  margin-top:30%;
+  margin-bottom: 0%;
+  width:100%;
+  margin-left:5%;
+}
+
+.t-div{
+  margin-top:8%;
+}
+
+
+
+/* Sign-In Section */
+.s-div2{
+  padding-right:80px;
+  padding-left: 80px;
+}
+
+.text2{
+  width:100%;
+}
+
+
+
+.logo1{
+  width:30%;
+}
+
+
+.icon{
+  width:5%;
+  margin-right: 20px;
+
+}
+
+
+.s-div6{
+  margin-left:25%;
+}
+
+.social{
+  padding-left:10%;
+}
+
+}
